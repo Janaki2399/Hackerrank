@@ -2,20 +2,25 @@
 #include<math.h>
 #include<stdlib.h>
 
-void update(int *num1, int *num2)
+void update(int *number1, int *number2)
 {
     int sum;
     int difference;
-     sum=*num1+*num2;
-     difference= *num1 - *num2;
-    *num1=sum;
-    *num2=abs(difference);
+
+     sum=*number1+*number2;
+     difference= *number1 - *number2;
+
+    *number1=sum;//sum is stored in number1
+    *number2=abs(difference);//absolute value of difference is stored in number2
 }
 int main()
 {
-    int num1,num2;
+    int number1,number2;
+
     printf("enter two numbers");
-    scanf("%d%d",&num1,&num2);
-    update(&num1,&num2);//call by reference
-    printf("After updating %d\n%d",num1,num2);
+    scanf("%d%d",&number1,&number2);
+    //call by reference
+    update(&number1,&number2);
+
+    printf("After updating %d\n%d",number1,number2);
 }
