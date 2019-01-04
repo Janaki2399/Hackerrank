@@ -1,4 +1,4 @@
-https://www.hackerrank.com/challenges/frequency-of-digits-1/problem
+//DIGIT FREQUENCY PROBLEM 
 
 #include<stdio.h>
 #include<string.h>
