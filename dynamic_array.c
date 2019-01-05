@@ -6,11 +6,11 @@ int main()
         int n,i;
         int sum=0;
 
-        printf("enter the no of elements ");
+       
         scanf("%d",&n);
         int *array =(int*)malloc(n * sizeof(int));//dynamically allocating memory for the array
         
-        printf("enter the elements");
+        
         for(i=0;i<n;i++)
         {
             scanf("%d",array+i);//storing the values in the address location
