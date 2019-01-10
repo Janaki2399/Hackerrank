@@ -13,7 +13,7 @@ int main()
 
     m=p=r=s=number;
     
-    int array[n][n];//declaring a two dimensional array
+    int array[2*number][2*number];//declaring a two dimensional array
 
     for(i=1;i<=n;i++)
     {

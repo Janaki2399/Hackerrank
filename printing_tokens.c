@@ -8,8 +8,6 @@ int main()
     int i=0;//i is index 
 
     string=malloc(1000*sizeof(char));
-
-    printf("enter a string");
     scanf("%[^\n]s",string);
 
     while(*(string+i)!='\0')
